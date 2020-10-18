@@ -123,6 +123,7 @@ Create Cart
 ----------------------------------------------------
 
 URL: http://127.0.0.1:8001/Cart/addToCart/
+
 {
 	"user_id": "1",
 	"product_details": [
@@ -169,6 +170,7 @@ URL: http://127.0.0.1:8002/Order/createOrder/
 ----------------------------------------------------
 Make Payment
 -------------------------------------------------------
+url: http://127.0.0.1:8004/Payment/makePayment/
 
 {
 	"payment_gateway": "payTM",
@@ -177,3 +179,6 @@ Make Payment
 	"orderid": 1,
 	"userid": 1
 }
+
+
+Response: "Payment successfull with reference no:  C2EEC0"
