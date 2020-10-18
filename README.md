@@ -7,6 +7,9 @@ Each service is having its own DB,
 Service can orcestrate using a common Dashboard.controller (Not implemented yet)
 
 
+Business Logic is in api.py file for each service
+
+
 ----------------------------------------------------
 Create Product
 --------------------------------------------------
