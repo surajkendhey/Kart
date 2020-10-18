@@ -9,7 +9,7 @@ Service can orcestrate using a common Dashboard.controller (Not implemented yet)
 Note:
 1. Business Logic is in api.py file for each service
 2. For Architecture please refer the "Hig Level Architecture.jpg" file or https://github.com/surajkendhey/Kart/blob/main/Hig%20Level%20Architecture.jpg
-3. For Date models please reder "models.py" file for each service
+3. For Date models please refer "models.py" file for each service
 
 
 
