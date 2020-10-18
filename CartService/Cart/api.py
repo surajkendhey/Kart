@@ -6,6 +6,25 @@ from . import models
 
 @api_view(['POST'])
 def create_update_cart(request):
+    """
+    {
+	"user_id": "1",
+	"product_details":
+	    [
+            {
+                "product_id": "2",
+                "quantity": 1,
+                "price": 1000
+            },
+            {
+                "product_id": "3",
+                "quantity": 1,
+                "price": 1000
+            }
+	    ]
+    }
+    """
+
     product_details = request.data['product_details']
     user_id = request.data['user_id']
 

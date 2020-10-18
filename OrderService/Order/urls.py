@@ -5,5 +5,5 @@ from django.urls import path
 
 urlpatterns = [
 #    path('', views.index, name='index'),
-    path('getProduct/', api.get_products, name='get_products'),
+    path('createOrder/', api.create_order, name='create_order'),
 ]
