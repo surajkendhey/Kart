@@ -6,8 +6,11 @@ Microservices architecture is used here so all of the services are independent o
 Each service is having its own DB,
 Service can orcestrate using a common Dashboard.controller (Not implemented yet)
 
+Note:
+1. Business Logic is in api.py file for each service
+2. For Architecture please refer the "Hig Level Architecture.jpg" file or https://github.com/surajkendhey/Kart/blob/main/Hig%20Level%20Architecture.jpg
+3. For Date models please reder "models.py" file for each service
 
-Business Logic is in api.py file for each service
 
 
 ----------------------------------------------------
