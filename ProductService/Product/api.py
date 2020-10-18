@@ -71,8 +71,6 @@ def create_product(request):
     vendor = request.data["vendor"]
     print(categories)
     categoryObj= models.Category.objects.filter(category_name__in=categories)
-    print("AAAA: "+str(len(categoryObj)))
-
     product = models.Product(product_name=product_name,productid=product_id,description=description,
                              vendor=vendor)
     try:
